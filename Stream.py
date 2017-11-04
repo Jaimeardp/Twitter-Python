@@ -6,10 +6,10 @@ from tweepy.models import Status
 import json
 #override tweepy.StreamListener to add logic to on_status
 
-consumer_key = 'WSI12n4qUbs0dNKYL5DqdvBal'
-consumer_secret = 'PeEydgl6NBORLpZ8j1xeyeHGj6Fp9iguVkWXI1tx4GeyjPIvvr'
-access_token_key = '3178263232-vIZ0HwSi5yCsSzv6WKzsNuBDP6WdhhLZXNbxEld'
-access_token_secret = 'O3lREESEUcVMZiLU2cskYDJMuVhtMxzR4cxSXVHikePF9'
+consumer_key = ''
+consumer_secret = ''
+access_token_key = ''
+access_token_secret = ''
 
 
 class MyStreamListener(StreamListener):
